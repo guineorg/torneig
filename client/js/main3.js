@@ -73,9 +73,9 @@ async function crearListaPuntuaciones() {
                 ${equipo.posicion}
               </div>
               <div class="equipo">
-              <img width="50%" src="${equipo.nombre === 'DAW 1' ? 'img/Logos/DAW1.png' : equipo.nombre === 'ASIX 2' ? 'img/Logos/asix2.png'  :
-              equipo.nombre === 'DAW 2' ? 'img/Logos/logo-placeholder.png' : equipo.nombre === 'Profes' ? 'img/Logos/profes.png' :
-               equipo.nombre === 'Comodín' ? 'img/Logos/logo-placeholder.png' : equipo.nombre === 'ASIX 1' ? 'img/Logos/asix1.png' : ''}" alt="${equipo.nombre} logo">   
+              <img width="50%" src="${equipo.nombre === 'DAW 1' ? 'img/logos/DAW1.png' : equipo.nombre === 'ASIX 2' ? 'img/logos/asix2.png'  :
+              equipo.nombre === 'DAW 2' ? 'img/logos/logo-placeholder.png' : equipo.nombre === 'Profes' ? 'img/logos/profes.png' :
+               equipo.nombre === 'Comodín' ? 'img/logos/logo-placeholder.png' : equipo.nombre === 'ASIX 1' ? 'img/logos/asix1.png' : ''}" alt="${equipo.nombre} logo">   
               </div>
 
               <div class="resultado d-flex flex-column align-items-center puntos">
