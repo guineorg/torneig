@@ -19,9 +19,9 @@ function actualizarDiv(resultados) {
               <div class="equipo">
                
                 
-                <img width="100px" src="${resultado.equipoLocal === 'DAW 1' ? 'img/Logos/DAW1.png' : resultado.equipoLocal === 'ASIX 2' ? 'img/Logos/asix2.png'  :
-                 resultado.equipoLocal === 'DAW 2' ? 'img/Logos/logo-placeholder.png' : resultado.equipoLocal === 'Profes' ? 'img/Logos/profes.png' :
-                  resultado.equipoLocal === 'Comodín' ? 'img/Logos/logo-placeholder.png' :  resultado.equipoLocal === 'ASIX 1' ? 'img/Logos/asix1.png' : ''}" alt="${resultado.equipoLocal} logo">
+                <img width="100px" src="${resultado.equipoLocal === 'DAW 1' ? 'img/logos/DAW1.png' : resultado.equipoLocal === 'ASIX 2' ? 'img/logos/asix2.png'  :
+                 resultado.equipoLocal === 'DAW 2' ? 'img/logos/logo-placeholder.png' : resultado.equipoLocal === 'Profes' ? 'img/logos/profes.png' :
+                  resultado.equipoLocal === 'Comodín' ? 'img/logos/logo-placeholder.png' :  resultado.equipoLocal === 'ASIX 1' ? 'img/logos/asix1.png' : ''}" alt="${resultado.equipoLocal} logo">
                
                   <p class="card-title text-center ${resultado.equipoLocal === 'ASIX 1' ? 'ASIX' : resultado.equipoLocal === 'ASIX 2' ? 'ASIXT' :
                   resultado.equipoLocal === 'Profes' ? 'Profes' : resultado.equipoLocal === 'Comodín' ? 'Comodin' :
@@ -36,9 +36,9 @@ function actualizarDiv(resultados) {
                 ${golesVisitante}
               </div>
               <div class="equipo">
-              <img width="100px" src="${resultado.equipoVisitante === 'DAW 1' ? 'img/Logos/DAW1.png' : resultado.equipoVisitante === 'ASIX 2' ? 'img/Logos/asix2.png'  :
-              resultado.equipoVisitante === 'DAW 2' ? 'img/Logos/logo-placeholder.png' : resultado.equipoVisitante === 'Profes' ? 'img/Logos/profes.png' :
-               resultado.equipoVisitante === 'Comodín' ? 'img/Logos/logo-placeholder.png' : resultado.equipoVisitante === 'ASIX 1' ? 'img/Logos/asix1.png' : ''}" alt="${resultado.equipoVisitante} logo">
+              <img width="100px" src="${resultado.equipoVisitante === 'DAW 1' ? 'img/logos/DAW1.png' : resultado.equipoVisitante === 'ASIX 2' ? 'img/logos/asix2.png'  :
+              resultado.equipoVisitante === 'DAW 2' ? 'img/logos/logo-placeholder.png' : resultado.equipoVisitante === 'Profes' ? 'img/logos/profes.png' :
+               resultado.equipoVisitante === 'Comodín' ? 'img/logos/logo-placeholder.png' : resultado.equipoVisitante === 'ASIX 1' ? 'img/logos/asix1.png' : ''}" alt="${resultado.equipoVisitante} logo">
                
 
           
